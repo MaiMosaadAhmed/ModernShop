@@ -1,5 +1,5 @@
 using Entity.Core;
-using Repository.Context;
+using Entity.Context;
 using Repository.Interface;
 namespace Repository.Implementation
 {

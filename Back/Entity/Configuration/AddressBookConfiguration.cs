@@ -1,6 +1,6 @@
 // using Entity.Core;
 // using Microsoft.EntityFrameworkCore;
-// namespace Repository.Configuration
+// namespace Entity.Configuration
 // {
 //     public class AddressBookConfiguration : IEntityTypeConfiguration<T>
 //     {

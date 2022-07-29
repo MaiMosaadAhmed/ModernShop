@@ -2,7 +2,7 @@ using System;
 using Entity.Core.authentication;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.DependencyInjection;
-using Repository.Context;
+using Entity.Context;
 
 namespace TestApplication.Extension
 {

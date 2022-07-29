@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Identity;
 
 namespace Entity.Core.authentication
 {
-    public class userIdentity:IdentityUser
+    public class userIdentity:IdentityUser<int>
     {
         
     }

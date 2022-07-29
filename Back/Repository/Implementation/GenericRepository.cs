@@ -5,7 +5,7 @@ using System.Linq.Expressions;
 using System.Threading.Tasks;
 using Entity.Shared;
 using Microsoft.EntityFrameworkCore;
-using Repository.Context;
+using Entity.Context;
 using Repository.Interface;
 namespace Repository.Implementation
 {

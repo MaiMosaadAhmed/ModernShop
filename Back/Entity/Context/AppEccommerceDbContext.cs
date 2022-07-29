@@ -5,9 +5,9 @@ using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 
-namespace Repository.Context
+namespace Entity.Context
 {
-    public class AppEccommerceDbContext : IdentityDbContext<userIdentity,roleIdentity,string>
+    public class AppEccommerceDbContext : IdentityDbContext<userIdentity,roleIdentity,int>
     {
         public AppEccommerceDbContext(DbContextOptions<AppEccommerceDbContext> options):base(options)
         {
