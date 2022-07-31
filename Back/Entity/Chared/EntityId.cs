@@ -4,6 +4,6 @@ namespace Entity.Shared
 {
     public class EntityId
     {
-        public Guid Id { get; set; }
+        public int Id { get; set; }
     }
 }
