@@ -7,7 +7,7 @@ using z_EcommerceSystem.DTO;
 namespace z_EcommerceSystem.Services
 {
     public interface IAuthService
-    {
+    { 
         Task<AuthDTO> Register(RegisterModel register);
     }
 }
