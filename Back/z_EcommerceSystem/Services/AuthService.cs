@@ -13,7 +13,7 @@ using z_EcommerceSystem.Helpers;
 
 namespace z_EcommerceSystem.Services
 {
-    public class AuthService : IAuthService
+    public class AuthService : IAuthService 
     {
         private readonly IAuthenticationService _authenticationService;
         private readonly Jwt _jwt;
